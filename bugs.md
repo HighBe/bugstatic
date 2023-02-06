@@ -31,4 +31,12 @@ CVE(Common Vulnerabilities & Exposures)
 |8|[CVE-2018-11289](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11289)| Data truncation during higher to lower type conversion which causes less memory allocation than desired can lead to a buffer overflow|Snapdragon Auto|
 |9|[CVE-2017-7961](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7961)| outside the range of representable values of type long| |
 |10|[CVE-2014-9515](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9515)| Dozer improperly uses a reflection-based approach to type conversion|Dozer|
-|1|[CVE-2022-3979](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3979)| The manipulation of the argument hash leads to incorrect type conversion.|
+|11|[CVE-2013-1802](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1802)|not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|extlib gem|
+|12|[CVE-2013-1801](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1801)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|httparty gem|
+|13|[CVE-2013-1800](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1800)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|crack gem|
+|14|[CVE-2013-0175](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0175)| does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code|multi_xml gem|
+|15|[CVE-2011-0045](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0045)| does not properly perform type conversion, which causes integer truncation and insufficient memory allocation and triggers a buffer overflow, which allows local users to gain privileges via a crafted application|Microsoft Windows XP SP3|
+|16|[CVE-2009-1904](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1904)| The BigDecimal library  allows context-dependent attackers to cause a denial of service (application crash) via a string argument that represents a large number, as demonstrated by an attempted conversion to the Float data type.|BigDecimal|
+|17|[CVE-2009-1686](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1686)| WebKit does not properly handle constant (aka const) declarations in a type-conversion operation during JavaScript exception handling|WebKit|
+
+
