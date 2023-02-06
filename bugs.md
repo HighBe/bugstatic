@@ -16,4 +16,4 @@ OpenSSH
 |----|----|----|----|
 |1|[3190](https://bugzilla.mindrot.org/show_bug.cgi?id=3190)| Inconsistent handling of private keys without accompanying public keys|  |
 |2|[2389](https://bugzilla.mindrot.org/show_bug.cgi?id=2389)| update the PROTOCOL.certkeys spec to avoid confusion regarding encoding of critical options fields|  |
-|3|[3253](https://bugzilla.mindrot.org/show_bug.cgi?id=3253)| ssh-keygen man page still lists deprecated key types for -t| pdate the list of available values after -t in ssh-keygen.1. |
+|3|[3253](https://bugzilla.mindrot.org/show_bug.cgi?id=3253)| ssh-keygen man page still lists deprecated key types for -t| update the list of available values after -t in ssh-keygen.1. |
