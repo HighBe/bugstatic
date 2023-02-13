@@ -17,6 +17,7 @@ OpenSSH
 |1|[3190](https://bugzilla.mindrot.org/show_bug.cgi?id=3190)| Inconsistent handling of private keys without accompanying public keys|  |
 |2|[2389](https://bugzilla.mindrot.org/show_bug.cgi?id=2389)| update the PROTOCOL.certkeys spec to avoid confusion regarding encoding of critical options fields|  |
 |3|[3253](https://bugzilla.mindrot.org/show_bug.cgi?id=3253)| ssh-keygen man page still lists deprecated key types for -t| update the list of available values after -t in ssh-keygen.1. |
+<br>
 
 CVE(Common Vulnerabilities & Exposures)
 |num|id|description|software|
@@ -38,5 +39,18 @@ CVE(Common Vulnerabilities & Exposures)
 |15|[CVE-2011-0045](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0045)| does not properly perform type conversion, which causes integer truncation and insufficient memory allocation and triggers a buffer overflow, which allows local users to gain privileges via a crafted application|Microsoft Windows XP SP3|
 |16|[CVE-2009-1904](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1904)| The BigDecimal library  allows context-dependent attackers to cause a denial of service (application crash) via a string argument that represents a large number, as demonstrated by an attempted conversion to the Float data type.|BigDecimal|
 |17|[CVE-2009-1686](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1686)| WebKit does not properly handle constant (aka const) declarations in a type-conversion operation during JavaScript exception handling|WebKit|
+
+<br>
+lighttpd
+|num|id|description|
+|1|[627](https://redmine.lighttpd.net/issues/627)| casting pointer types for variebyte data is somewhat careless|
+<br>
+
+postfix VSFTP没找到
+<br>
+
+linux的bug页面无法打开：landfill.bugzilla.org/bugzilla-tip/query.cgi 
+
+
 
 
