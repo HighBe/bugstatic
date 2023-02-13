@@ -20,6 +20,7 @@ OpenSSH
 <br>
 
 CVE(Common Vulnerabilities & Exposures)
+<br>
 type conversion
 |num|id|description|software|
 |----|----|----|----|
@@ -35,6 +36,30 @@ type conversion
 |10|[CVE-2013-1801](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1801)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|httparty gem|
 |11|[CVE-2013-1800](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1800)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|crack gem|
 |12|[CVE-2013-0175](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0175)| does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code|multi_xml gem|
+<br>
+
+type casting
+|num|id|description|software|
+|----|----|----|----|
+|1|[CVE-2016-5862](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5862)| 	When a control related to codec is issued from userspace in all Qualcomm products, the type casting is done to the container structure instead of the codec's individual structure, resulting in a device restart after kernel crash occurs.|Qualcomm|
+|2|[CVE-2016-1000004](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000004)| Insufficient type checks were employed prior to casting input data in SimpleXMLElement_exportNode and simplexml_import_dom.|HHVM|
+<br>
+
+type coercion
+|num|id|description|software|
+|----|----|----|----|
+|1|[CVE-2021-41272](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41272)| Starting in version 21.10.0, changes in the implementation of the SHL, SHR, and SAR operations resulted in the introduction of a signed type coercion error in values that represent negative values for 32 bit signed integers. |Besu|
+<br>
+
+type juggling
+|num|id|description|software|
+|----|----|----|----|
+|1|[CVE-2021-40693](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40693)| An authentication bypass risk was identified in the external database authentication functionality, due to a type juggling vulnerability.| |
+|2|[CVE-2020-23361](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-23361)| phpList 3.5.3 allows type juggling for login bypass because == is used instead of === for password hashes, which mishandles hashes that begin with 0e followed by exclusively numerical characters.|phpList|
+|3|[CVE-2020-23356](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-23356)| dmin/kernel/api/login.class.phpin in nibbleblog v3.7.1c allows type juggling for login bypass because == is used instead of === for password hashes, which mishandles hashes that begin with 0e followed by exclusively numerical characters.|nibbleblog|
+|4|[CVE-2019-14537](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14537)|YOURLS through 1.7.3 is affected by a type juggling vulnerability in the api component that can result in login bypass.|YOURLS|
+|5|[CVE-2019-10231](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10231)|Teclib GLPI before 9.4.1.1 is affected by a PHP type juggling vulnerability allowing bypass of authentication. This occurs in Auth::checkPassword() (inc/auth.class.php).|GLPI|
+|6|[CVE-2017-1001000](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1001000)|The register_routes function does not require an integer identifier, which allows remote attackers to modify arbitrary pages via a request for wp-json/wp/v2/posts followed by a numeric value and a non-numeric value, as demonstrated by the wp-json/wp/v2/posts/123?id=123helloworld URI.|WordPress|
 <br>
 
 
