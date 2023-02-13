@@ -20,27 +20,23 @@ OpenSSH
 <br>
 
 CVE(Common Vulnerabilities & Exposures)
+type conversion
 |num|id|description|software|
 |----|----|----|----|
 |1|[CVE-2022-3979](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3979)| The manipulation of the argument hash leads to incorrect type conversion.|NagVis|
 |2|[CVE-2022-29209](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29209)| have an incorrect logic when comparing `size_t` and `int` values.|TensorFlow|
-|3|[CVE-2021-43537](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43537)| An incorrect type conversion of sizes from 64bit to 32bit integers allowed an attacker to corrupt memory leading to a potentially exploitable crash.|Snapdragon Auto|
-|4|[CVE-2021-41202](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41202)| Due to C++ implicit conversion rules, both branches of the condition will be cast to `double`|TensorFlow|
-|5|[CVE-2021-37645](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37645)| an integer overflow issue caused by converting a signed integer value to an unsigned one|TensorFlow|
-|6|[CVE-2021-36357](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36357)| a type mismatch that can truncate a higher integer value to a smaller one|OpenPOWER|
-|7|[CVE-2021-29513](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29513)| Calling TF operations with tensors of non-numeric types when the operations expect numeric tensors result in null pointer dereferences.|TensorFlow|
-|8|[CVE-2018-11289](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11289)| Data truncation during higher to lower type conversion which causes less memory allocation than desired can lead to a buffer overflow|Snapdragon Auto|
-|9|[CVE-2017-7961](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7961)| outside the range of representable values of type long| |
-|10|[CVE-2014-9515](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9515)| Dozer improperly uses a reflection-based approach to type conversion|Dozer|
-|11|[CVE-2013-1802](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1802)|not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|extlib gem|
-|12|[CVE-2013-1801](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1801)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|httparty gem|
-|13|[CVE-2013-1800](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1800)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|crack gem|
-|14|[CVE-2013-0175](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0175)| does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code|multi_xml gem|
-|15|[CVE-2011-0045](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0045)| does not properly perform type conversion, which causes integer truncation and insufficient memory allocation and triggers a buffer overflow, which allows local users to gain privileges via a crafted application|Microsoft Windows XP SP3|
-|16|[CVE-2009-1904](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1904)| The BigDecimal library  allows context-dependent attackers to cause a denial of service (application crash) via a string argument that represents a large number, as demonstrated by an attempted conversion to the Float data type.|BigDecimal|
-|17|[CVE-2009-1686](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1686)| WebKit does not properly handle constant (aka const) declarations in a type-conversion operation during JavaScript exception handling|WebKit|
-
+|3|[CVE-2021-41202](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41202)| Due to C++ implicit conversion rules, both branches of the condition will be cast to `double`|TensorFlow|
+|4|[CVE-2021-37645](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37645)| an integer overflow issue caused by converting a signed integer value to an unsigned one|TensorFlow|
+|5|[CVE-2021-36357](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36357)| a type mismatch that can truncate a higher integer value to a smaller one|OpenPOWER|
+|6|[CVE-2021-29513](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29513)| Calling TF operations with tensors of non-numeric types when the operations expect numeric tensors result in null pointer dereferences.|TensorFlow|
+|7|[CVE-2017-7961](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7961)| outside the range of representable values of type long| |
+|8|[CVE-2014-9515](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9515)| Dozer improperly uses a reflection-based approach to type conversion|Dozer|
+|9|[CVE-2013-1802](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1802)|not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|extlib gem|
+|10|[CVE-2013-1801](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1801)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|httparty gem|
+|11|[CVE-2013-1800](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1800)| not properly restrict casts of string values, which might allow remote attackers to conduct object-injection attacks and execute arbitrary code|crack gem|
+|12|[CVE-2013-0175](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0175)| does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code|multi_xml gem|
 <br>
+
 
 lighttpd
 |num|id|description|
