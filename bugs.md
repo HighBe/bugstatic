@@ -47,6 +47,7 @@ lighttpd
 |---|---|---|
 |1|[627](https://redmine.lighttpd.net/issues/627)| casting pointer types for variebyte data is somewhat careless|
 <br>
+
 FreeBSD
 |num|id|summary|
 |---|---|---|
