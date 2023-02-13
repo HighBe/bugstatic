@@ -44,15 +44,22 @@ CVE(Common Vulnerabilities & Exposures)
 
 lighttpd
 |num|id|description|
+|---|---|---|
 |1|[627](https://redmine.lighttpd.net/issues/627)| casting pointer types for variebyte data is somewhat careless|
-
+<br>
+FreeBSD
+|num|id|summary|
+|---|---|---|
+|1|[181840](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=181840)|error: incompatible integer to pointer conversion passing 'unsigned long long' to parameter of type 'cap_rights_t *' (aka 'struct cap_rights *')|
+|2|[190126](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=190126)|error: incompatible integer to pointer conversion passing 'unsigned long long' to parameter of type 'cap_rights_t *' (aka 'struct cap_rights *')|
+搜索可能有问题，有的关键词第一次搜索的时候有结果，第二次搜索的时候就没有内容了。
 <br>
 
-postfix VSFTP没找到
+postfix VSFTP OpenSolaris没找到
 <br>
-
 linux的bug页面无法打开：landfill.bugzilla.org/bugzilla-tip/query.cgi 
-
+<br>
+WineHQ 没有符合条件的内容:https://bugs.winehq.org/buglist.cgi?quicksearch=type%20conversion
 
 
 
