@@ -62,9 +62,6 @@ type juggling
 |6|[CVE-2017-1001000](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1001000)|The register_routes function does not require an integer identifier, which allows remote attackers to modify arbitrary pages via a request for wp-json/wp/v2/posts followed by a numeric value and a non-numeric value, as demonstrated by the wp-json/wp/v2/posts/123?id=123helloworld URI.|WordPress|
 <br>
 
-type confusion
-
-
 
 lighttpd
 |num|id|description|
@@ -82,6 +79,7 @@ FreeBSD  搜索可能有问题，有的关键词第一次搜索的时候有结�
 postfix VSFTP OpenSolaris没找到
 <br>
 linux的bug页面无法打开：landfill.bugzilla.org/bugzilla-tip/query.cgi 
+<br>
 可能是linux库的buglist：https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=type+confusion
 <br>
 WineHQ 没有符合条件的内容:https://bugs.winehq.org/buglist.cgi?quicksearch=type%20conversion
